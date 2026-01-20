@@ -86,7 +86,7 @@ if selected == 'Home':
     st.write('##')
     col1, col2 = st.columns(2)
     with col1:
-        st.image('foto.png')
+        st.image('assets/foto.png')
     with col2:
         st.write("<h2 style='color: #00FFC4;'>Etwas über mich:</h2>", unsafe_allow_html=True)
         st.write(
@@ -120,7 +120,7 @@ if selected == 'Home':
             """
         )
     with spalte2:
-        st.image('python.jpg')
+        st.image('assets/python.jpg')
     st.write('---')
 
 ########################## Dritte Zeile #########################
@@ -150,20 +150,20 @@ if selected == 'Projekte':
     st.markdown(
     "<p style='text-align:center;'>Machine Learning</p>",
     unsafe_allow_html=True)
-    st.image('projekt_1.1.png')
-    st.image('projekt_1.2.png')
+    st.image('assets/projekt_1.1.png')
+    st.image('assets/projekt_1.2.png')
     st.write('---')
     st.markdown(
     "<p style='text-align:center;'>Graphical UI</p>",
     unsafe_allow_html=True)
-    st.image('projekt_gui.png', use_container_width=True)
+    st.image('assets/projekt_gui.png', use_container_width=True)
     st.write('---')
     st.markdown(
     "<p style='text-align:center;'>Etwas Robotik</p>",
     unsafe_allow_html=True)
-    st.video('my_project.mp4')
-    st.video('my_project2.mp4')
-    st.video('my_project3.mp4')
+    st.video('assets/my_project.mp4')
+    st.video('assets/my_project2.mp4')
+    st.video('assets/my_project3.mp4')
     st.caption(
     "Entwicklung und Programmierung verschiedener Roboter mit Fokus auf "
     "Computer Vision. Die Roboter erkennen Farben über Kamerasysteme und "
@@ -184,4 +184,5 @@ if selected == 'Kontakt':
         ---\n
         """
     )
+
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
