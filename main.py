@@ -161,9 +161,9 @@ if selected == 'Projekte':
     st.markdown(
     "<p style='text-align:center;'>Etwas Robotik</p>",
     unsafe_allow_html=True)
-    st.video('assets/my_project.mp4')
-    st.video('assets/my_project2.mp4')
-    st.video('assets/my_project3.mp4')
+    st.video('assets/My Project.mp4')
+    st.video('assets/My Project2.mp4')
+    st.video('assets/My Project3.mp4')
     st.caption(
     "Entwicklung und Programmierung verschiedener Roboter mit Fokus auf "
     "Computer Vision. Die Roboter erkennen Farben über Kamerasysteme und "
@@ -186,3 +186,4 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
