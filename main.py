@@ -4,30 +4,6 @@ import base64
 
 st.set_page_config(page_title='Portfolio', page_icon='logo.PNG')
 
-
-################## Hintergrundbild setzen ###################
-# # Base64-kodiertes Bild einfügen
-# def get_base64_image(image_path):
-#     with open(image_path, "rb") as img_file:
-#         return base64.b64encode(img_file.read()).decode()
-
-# image_base64 = get_base64_image('bg.jpeg')
-
-# # page_bg_img = f'''
-# # <style>
-# # .stApp {{
-# #     background-image: url("data:image/jpeg;base64,{image_base64}");
-# #     background-size: cover;
-# #     background-position: center;
-# #     background-repeat: no-repeat;
-# #     background-attachment: fixed;
-# # }}
-# # </style>
-# # '''
-
-# # st.markdown(page_bg_img, unsafe_allow_html=True)
-##############################################################
-
 # CSS, um den oberen Abstand der Seite zu verkleinern
 st.markdown(
     """
@@ -186,4 +162,5 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
