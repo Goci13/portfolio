@@ -93,6 +93,7 @@ if selected == 'Home':
             - Grafische UI erstellen
             - Computer Vision
             - Deep Learning
+            - Robotik
             """
         )
     with spalte2:
@@ -110,7 +111,7 @@ if selected == 'Home':
         st.write('OpenCV')
     with col2:
         st.write('Streamlit')
-        st.write('Daten Analyse')
+        st.write('Robotik')
     with col3:
         st.write('Machine Learning')
         st.write('Deep Learning')
@@ -162,5 +163,6 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
