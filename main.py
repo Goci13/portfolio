@@ -62,7 +62,7 @@ if selected == 'Home':
     st.write('##')
     col1, col2 = st.columns(2)
     with col1:
-        st.image('assets/foto.png')
+        st.image('assets/Goran.jpg')
     with col2:
         st.write("<h2 style='color: #00FFC4;'>Etwas über mich:</h2>", unsafe_allow_html=True)
         st.write(
@@ -163,6 +163,7 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
 
