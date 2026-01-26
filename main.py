@@ -74,11 +74,19 @@ if selected == 'Home':
             Programmieren und moderne Technologien 
             in den Mittelpunkt meiner beruflichen 
             Weiterentwicklung zu stellen. Mit frischem 
-            Elan und umfangreicher technischer Erfahrung 
-            arbeite ich an Softwareprojekten mit Bezug 
-            zu Robotik, Computer Vision und KI und 
-            verbinde dabei Praxiswissen mit neuen 
-            digitalen Ansätzen.
+            Elan und umfangreicher technischer 
+            Erfahrung arbeite ich an Softwareprojekten 
+            mit Bezug zu Robotik, Computer Vision und 
+            künstlicher Intelligenz und verbinde dabei 
+            Praxiswissen mit neuen digitalen Ansätzen.
+
+            Besonders interessiert mich die Schnittstelle 
+            zwischen Software und realen Systemen, etwa 
+            in der Mensch-Roboter-Interaktion oder der 
+            industriellen Automatisierung. Mein Ziel ist es, 
+            praxisnahe, verständliche und nachhaltige 
+            Lösungen zu entwickeln, die technische Prozesse 
+            sinnvoll unterstützen und weiterdenken.
             """
         )
     st.write('---')
@@ -166,6 +174,7 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
 
