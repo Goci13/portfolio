@@ -108,7 +108,7 @@ if selected == 'Home':
             """
         )
     with spalte2:
-        st.image('assets/Python Robotik.png')
+        st.image('assets/Industrielle Robotik.png')
     st.write('---')
 
 ########################## Dritte Zeile #########################
@@ -174,6 +174,7 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
 
