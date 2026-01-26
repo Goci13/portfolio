@@ -114,7 +114,7 @@ if selected == 'Home':
 ########################## Dritte Zeile #########################
 
     st.write('##')
-    st.write("<h2 style='color: #00FFC4;'>Meine Zertifikate</h2>", unsafe_allow_html=True)
+    st.write("<h2 style='color: #00FFC4;'>Meine Udemy Zertifikate</h2>", unsafe_allow_html=True)
     st.write('##')
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -174,6 +174,7 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
 
