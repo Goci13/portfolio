@@ -65,17 +65,20 @@ if selected == 'Home':
         st.image('assets/Goran.jpg')
     with col2:
         st.write("<h2 style='color: #00FFC4;'>Etwas über mich:</h2>", unsafe_allow_html=True)
+        st.write()
         st.write(
             """
-            Nach 20 Jahren in der Industrie habe
-            ich beschlossen, meine Leidenschaft
-            für das Programmieren zu verfolgen.
-            Mit frischem Elan und umfassender 
-            Erfahrung starte ich nun meinen Weg 
-            als Programmierer, um mich in einer 
-            dynamischen, technologiegetriebenen 
-            Welt weiterzuentwickeln und kreative 
-            Lösungen zu finden.
+            Nach mehr als 20 Jahren Tätigkeit in 
+            der Industrie habe ich den Entschluss 
+            gefasst, meine Begeisterung für das 
+            Programmieren und moderne Technologien 
+            in den Mittelpunkt meiner beruflichen 
+            Weiterentwicklung zu stellen. Mit frischem 
+            Elan und umfangreicher technischer Erfahrung 
+            arbeite ich an Softwareprojekten mit Bezug 
+            zu Robotik, Computer Vision und KI und 
+            verbinde dabei Praxiswissen mit neuen 
+            digitalen Ansätzen.
             """
         )
     st.write('---')
@@ -163,6 +166,7 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
 
