@@ -146,6 +146,9 @@ if selected == 'Projekte':
     unsafe_allow_html=True)
     st.image('assets/projekt_gui.png', use_container_width=True)
     st.write('---')
+    st.image('assets/Screenshot01.png', use_container_width=True)
+    st.image('assets/Screenshot02.png', use_container_width=True)
+    st.write('---')
     st.markdown(
     "<p style='text-align:center;'>Etwas Robotik</p>",
     unsafe_allow_html=True)
@@ -174,6 +177,7 @@ if selected == 'Kontakt':
     )
 
     st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+
 
 
 
