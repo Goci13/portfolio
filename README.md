@@ -42,7 +42,7 @@ Demonstration praktischer Fähigkeiten in:
 
 Goran Mikic
 📍 Mannheim, Deutschland
-📧 mikic-clan@freenet.de
+📧 goranmikic007@gmail.com
 
 📜 Lizenz
 
