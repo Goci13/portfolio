@@ -176,7 +176,8 @@ if selected == 'Kontakt':
         """
     )
 
-    st.write("<p style='color: #00FFC4;'>mikic-clan@freenet.de</p>", unsafe_allow_html=True)
+    st.write("<p style='color: #00FFC4;'>goranmikic007@gmail.com</p>", unsafe_allow_html=True)
+
 
 
 
