@@ -138,8 +138,8 @@ if selected == 'Projekte':
     st.markdown(
     "<p style='text-align:center;'>Machine Learning</p>",
     unsafe_allow_html=True)
-    st.image('assets/projekt_1.1.png')
-    st.image('assets/projekt_1.2.png')
+    st.image('assets/MachineLearning01.png')
+    st.image('assets/MachineLearning02.png')
     st.write('---')
     st.markdown(
     "<p style='text-align:center;'>Graphical UI</p>",
