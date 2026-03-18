@@ -144,10 +144,10 @@ if selected == 'Projekte':
     st.markdown(
     "<p style='text-align:center;'>Graphical UI</p>",
     unsafe_allow_html=True)
-    st.image('assets/projekt_gui.png', use_container_width=True)
-    st.write('---')
-    st.image('assets/Screenshot01.png', use_container_width=True)
-    st.image('assets/Screenshot 2026-02-05.png', use_container_width=True)
+    st.image('assets/Screenshot1.png', use_container_width=True)
+    st.image('assets/Screenshot2.png', use_container_width=True)
+    st.image('assets/Screenshot3.png', use_container_width=True)
+    st.image('assets/Screenshot4.png', use_container_width=True)
     st.write('---')
     st.markdown(
     "<p style='text-align:center;'>Etwas Robotik</p>",
