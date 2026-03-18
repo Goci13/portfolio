@@ -149,6 +149,9 @@ if selected == 'Projekte':
     st.image('assets/Screenshot3.png', use_container_width=True)
     st.image('assets/Screenshot4.png', use_container_width=True)
     st.write('---')
+    st.video('assets/Video1.mp4')
+    st.video('assets/Video2.mp4')
+    st.write('---')
     st.markdown(
     "<p style='text-align:center;'>Etwas Robotik</p>",
     unsafe_allow_html=True)
